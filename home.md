@@ -2,7 +2,7 @@
 title: Enhance Everything! Wiki
 description: Testing Wiki-JS for EE
 published: true
-date: 2023-09-17T23:13:23.734Z
+date: 2023-09-17T23:49:15.156Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-21T17:12:46.827Z
@@ -38,15 +38,18 @@ OpenModelDB](https://openmodeldb.info/).
 
 ##### Guides
 
-- [training-guide](/training-guide)
+- [Training Guide](/training-guide)
 
 This guide walks you through the basics of training your own model.
 
-- [training-tools](/training-tools)
+- [Training Tools](/training-tools)
 
 This is a list of tools to train and various tools useful while training.
 
 ### Useful Information
+
+- [Terminology](/terminology)
+Useful to know to be able to understand what people are talking about in discussions, papers, ...
 
 - [Pixelate](https://chrome.google.com/webstore/detail/pixelate/ffmgnhmbppbhmhnehfjelgnbcbaehofe/related?hl=en-GB)
   is a Chrome plugin that disables the bicubic filtering for upscaled
