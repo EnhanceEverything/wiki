@@ -2,7 +2,7 @@
 title: Enhance Everything! Wiki
 description: Testing Wiki-JS for EE
 published: true
-date: 2022-10-21T17:12:48.675Z
+date: 2023-09-17T23:13:23.734Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-21T17:12:46.827Z
@@ -10,72 +10,46 @@ dateCreated: 2022-10-21T17:12:46.827Z
 
 # Enhance Everything Wiki
 
-Welcome to our wiki. We have information mostly focused around image and video upscaling using neural networks (ESRGAN in particular). 
+Welcome to our wiki. We have information mostly focused around image and
+video upscaling using neural networks (ESRGAN in particular).
 
 ## About Us
 
-- If you have any questions, we have a very active Discord server where you can ask them. We also have a dedicated channel for model releases here.
-- We also have a Subreddit.
+- If you have any questions, we have a [Discord
+  server](https://discord.gg/cpAUpDK) where you can ask them. We also
+  have a dedicated channel for model releases here.
+- We also have a [Subreddit](https://www.reddit.com/r/GameUpscale/).
 
-## Projects
+## The Model Database
 
-You will find a list of Projects that have been done already here.
-The Model Database
+We have moved our models to a new dedicated [model database page called
+OpenModelDB](https://openmodeldb.info/).
 
-Our custom models.
-
-## The Dataset Database
-
-Datasets to train your models.
-
-## Installation Guides, Tutorials, and Information
-
-### ESRGAN - Apply Super Resolution Models
-
-#### Basic Setup Installation Guides
-
-- Arch Linux
-- MacOS.
-- Windows (recommended) / Windows (experimental)
+### Apply Super Resolution Models
 
 #### Tools and GUIs
 
-- How to use ESRGAN, Tool wrappers and other information
+- [chaiNNer](https://github.com/chaiNNer-org/chaiNNer) this is the
+  recommended way to run most models on Windows, macOS and Linux.
 
-### BasicSR/traiNNer - Train Super Resolution Models
-
-#### Installation Information
-
-- Arch Linux
-- Windows (experimental)
+### Train Your own Models
 
 #### Training Information and Guides
 
 ##### Guides
 
-- traiNNer/BasicSR Training Guide
+- [training-guide](/training-guide)
 
-##### Helpful Info
+This guide walks you through the basics of training your own model.
 
-- Datasets sources
-- Benchmarks for training models.
-- New Content Posting Template for Discord
+- [training-tools](/training-tools)
 
-## Other Guides
+This is a list of tools to train and various tools useful while training.
 
-- Upscaling Build Engine Games
-- Texture injection and dumping
-- Texture preparation and clean-up
+### Useful Information
 
-## Useful Information
-
-- Terminology
-- Different Neural Networks
-- List of all wiki pages
-- Beginner information for the interested
-- Pixelate is a Chrome plugin that disables the bicubic filtering for upscaled images. Useful especially when zooming in pixel art.
-- No More Pixels An image gallery showcasing the possibilities of retro pixel art upscaled using ESRGAN.
-
-## Troubleshooting
-
-- Troubleshooting and fixing some common problems
+- [Pixelate](https://chrome.google.com/webstore/detail/pixelate/ffmgnhmbppbhmhnehfjelgnbcbaehofe/related?hl=en-GB)
+  is a Chrome plugin that disables the bicubic filtering for upscaled
+  images. Useful especially when zooming in pixel art.
+- [No More Pixels](https://nomorepixels.tumblr.com/) An image gallery
+  showcasing the possibilities of retro pixel art upscaled using ESRGAN.
