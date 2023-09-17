@@ -2,7 +2,7 @@
 title: Enhance Everything! Wiki
 description: Testing Wiki-JS for EE
 published: true
-date: 2023-09-17T23:49:15.156Z
+date: 2023-09-17T23:50:02.674Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-21T17:12:46.827Z
@@ -25,18 +25,18 @@ video upscaling using neural networks (ESRGAN in particular).
 We have moved our models to a new dedicated [model database page called
 OpenModelDB](https://openmodeldb.info/).
 
-### Apply Super Resolution Models
+## Apply Super Resolution Models
 
-#### Tools and GUIs
+### Tools and GUIs
 
 - [chaiNNer](https://github.com/chaiNNer-org/chaiNNer) this is the
   recommended way to run most models on Windows, macOS and Linux.
 
-### Train Your own Models
+## Train Your own Models
 
-#### Training Information and Guides
+### Training Information and Guides
 
-##### Guides
+#### Guides
 
 - [Training Guide](/training-guide)
 
@@ -46,10 +46,12 @@ This guide walks you through the basics of training your own model.
 
 This is a list of tools to train and various tools useful while training.
 
-### Useful Information
+## Useful Information
 
 - [Terminology](/terminology)
 Useful to know to be able to understand what people are talking about in discussions, papers, ...
+
+## Other resources, blogs and links
 
 - [Pixelate](https://chrome.google.com/webstore/detail/pixelate/ffmgnhmbppbhmhnehfjelgnbcbaehofe/related?hl=en-GB)
   is a Chrome plugin that disables the bicubic filtering for upscaled
