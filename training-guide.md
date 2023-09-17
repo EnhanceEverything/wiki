@@ -2,7 +2,7 @@
 title: Training Guide
 description: This is a short guide to cover everything you need to know to train your own model. In this tutorial, we will be using NeoSR.
 published: true
-date: 2023-09-17T22:30:39.055Z
+date: 2023-09-17T22:31:19.375Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-17T22:30:39.055Z
@@ -113,7 +113,10 @@ To pause training, press CTRL+C. It should save the latest state and model. If y
 
 ### Common errors
 
-CUDA out of memory  
+```
+CUDA out of memory
+```
+
 This means you need to decrease your batch size. If you can't decrease your batch size any more, decrease your crop_size.
 
 - If you're getting this error during validation, it means your validation images are too large. Try cropping them or splitting them into multiple images.
@@ -127,4 +130,5 @@ This means you did not install the required libraries through pip. Try again or 
 ```
 Could not broadcast shape \_\_\_\_ to shape \_\_\_\_
 ```
+
 This could mean a few things, most likely your LR and HR sizes are mismatched. Make sure they are clean multiples of each other.
