@@ -2,7 +2,7 @@
 title: Training Tools
 description: This page lists tools useful for training
 published: true
-date: 2023-09-17T22:58:20.269Z
+date: 2023-09-17T22:59:09.971Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-17T22:58:20.269Z
@@ -28,7 +28,7 @@ A fork of BasicSR made by Joey to add some additional losses such as the CX Loss
 
 ### [Xinntao's Original BasicSR](https://github.com/xinntao/BasicSR)
 
-This is the original BasicSR repository. It was updated to v1 officially, however, it is not recommended as it lacks many of the features the community generally finds useful, and only creates x4 scale [new-arch models](ESRGAN_new-arch "wikilink")
+This is the original BasicSR repository. It was updated to v1 officially, however, it is not recommended as it lacks many of the features the community generally finds useful, and only creates x4 scale new-arch models.
 
 ### [Colab-traiNNer](https://github.com/styler00dollar/Colab-traiNNer)
 
@@ -48,6 +48,6 @@ It is no longer maintained.
 
 ### [DinJerr's Fork](https://github.com/DinJerr/BasicSR)
 
-This fork has lots of cool [On The Fly training](On_The_Fly_training "wikilink") options added through ImageMagick. This includes different types of dithering and a Kuwahara filter.
+This fork has lots of cool On The Fly training options added through ImageMagick. This includes different types of dithering and a Kuwahara filter.
 
 It seems to be unmaintained as of late 2021.
