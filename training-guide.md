@@ -2,7 +2,7 @@
 title: Training Guide
 description: This is a short guide to cover everything you need to know to train your own model. In this tutorial, we will be using NeoSR.
 published: true
-date: 2023-09-17T22:31:19.375Z
+date: 2023-09-17T22:32:46.591Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-17T22:30:39.055Z
@@ -25,7 +25,7 @@ The documentation of NeoSR will be more up to date than instructions here, so we
 To get started you will need to install the version of Python supported by NeoSR, on Windows that can be done either by downloading it [here](https://www.python.org/downloads/windows/), or by creating an environment for it using [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) or [mamba](https://mamba.readthedocs.io/en/latest/mamba-installation.html). On Linux those same tools work, but we suggest you install them with your system's package manager. Training on macOS has been relatively unexplored by our community, it might work on metal on the later arm macs released after 2023, you will probably need to modify your BasicSR fork of choice, if you want to explore it, we suggest you go onto our discord server.
 
 ### Creating a Dataset
-It
+
 All super resolution models are trained using low-resolution images, often called LR (Low Resolution) for short or LQ (Low Quality), and high-resolution images, often called HR (High Resolution) or GT (Ground Truth). For a 4x scale model, this means that your LR images will be 4x smaller in both vertical and horizontal resolution compared to your HR images.
 
 It is important to create the best dataset you can for your upscale task. Many pre-existing datasets exist, such as nomos8k, nomosUni, DF2, Manga109 or many others, but a dataset can be any collection of images. Your HRs could be high quality frames of a TV show, for example, with the LRs being the same images scaled down by 4. This would then create a model that is good at upscaling small images that are visually similar to the LRs you created. The dataset is one of the most important part of training a model. Without a good dataset, your model will not work well.
