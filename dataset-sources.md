@@ -2,7 +2,7 @@
 title: Dataset Sources
 description: 
 published: true
-date: 2023-09-18T09:14:27.922Z
+date: 2023-09-18T09:23:59.631Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-18T00:58:39.521Z
@@ -14,6 +14,33 @@ To train your own model, you need a dataset of images. Here are some sources to 
 
 
 ## Community Datasets
+
+### nomos_uni
+
+universal dataset containing real photographs and anime images
+
+2989 images, each 512x512px
+
+[nomos_uni GDrive (1.3GB)](https://drive.google.com/file/d/1LVS7i9J3mP9f2Qav2Z9i9vq3y2xsKxA_/view?usp=sharing)
+[nomos_uni (lmdb GDrive (1.3GB)](https://drive.google.com/file/d/1MHJCS4Zl3H5nihgpA_VVliziXnhJ3aU7/view?usp=sharing)
+[nomos_uni (LQ 4x) GDrive (92MB)](https://drive.google.com/file/d/1uvMl8dG8-LXjCOEoO9Aiq5Q9rd_BIUw9/view?usp=sharing)
+[nomos_uni (LQ 4x - lmdb) GDrive (91MB)](https://drive.google.com/file/d/1h27AsZze_FFsAsf8eXupcqIZQHhvwa1y/view?usp=sharing)
+
+### nomos8k
+
+dataset with real photographs only.
+
+8492 images, each 512x512px
+
+[nomos8k GDrive (3.4GB)](https://drive.google.com/file/d/1ppTpi1-FQEBp908CxfnbI5Gc9PPMiP3l/view?usp=sharing)
+
+### hfa2k
+
+anime dataset
+
+2568 images, each 512x512px
+
+[hfa2k GDrive (3.2GB)](https://drive.google.com/file/d/1PonJdHWwCtBdG4i1LwThm06t6RibnVu8/view?usp=sharing)
 
 ### [Nomos2k](https://mega.nz/file/SL5jwYSR#nkVWxRMazz1QO72338ZEl1Ts0BLJjtYFxr9Ne-jmf7A)
 
