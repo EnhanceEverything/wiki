@@ -2,7 +2,7 @@
 title: Dataset Sources
 description: 
 published: true
-date: 2023-09-18T09:10:20.840Z
+date: 2023-09-18T09:14:27.922Z
 tags: 
 editor: markdown
 dateCreated: 2023-09-18T00:58:39.521Z
@@ -17,19 +17,21 @@ To train your own model, you need a dataset of images. Here are some sources to 
 
 ### [Nomos2k](https://mega.nz/file/SL5jwYSR#nkVWxRMazz1QO72338ZEl1Ts0BLJjtYFxr9Ne-jmf7A)
 
-A dataset containing 2536 images of 2000px. I hand selected it from multiple sources, based on the following criteria:
+A dataset containing 2536 images of 2000px. Hand selected from multiple sources, based on the following criteria:
 
 - High signal-to-noise ratio (low noise)
 - Diverse. 
 - Sharp (no motion blur, shallow DOF is ok)
 - Contains mixed and complex textures/shapes that cover most part of the image
 
-Raw images were processed on rawtherapee using prebayer deconvolution, AMaZe and AP1 color space. Sources: Adobe-MIT-5k, RAISE, FFHQ, DIV2K, DIV8k, Flickr2k, Rawsamples, SignatureEdits, Hasselblad raw samples and Unsplash. 
-KernelGAN was trained using DLIP on all images, with scale 4x and up to 5k iter, instead of 3k. Hopefully it increases the accuracy of kernels. All files are provided on "kernelgan" folder. Note: in order to use it on traiNNer, you have to give dataroot_kernels path, along with enabling realistic under the resizing presets. 
-I've also made available my selected noise patches. They were extracted from multiple images "in the wild", with unknown degradation:
-[Noise Patches](https://mega.nz/file/WSZjjYRI#jgJYQTxJQyJjW5cbDJdUte0szfOpyeiDRrWmMzIkxZ0)
-I encourage everyone to give it a try and, if possible, mirror the dataset. For now it was made available on MEGA, but I plan to mirror it on other solutions.
-[Sample Video](https://cdn.discordapp.com/attachments/579685650824036387/904201202546380820/nomos2k.mp4)
+Raw images were processed on rawtherapee using prebayer deconvolution, AMaZe and AP1 color space.
+
+Sources: Adobe-MIT-5k, RAISE, FFHQ, DIV2K, DIV8k, Flickr2k, Rawsamples, SignatureEdits, Hasselblad raw samples and Unsplash.
+
+KernelGAN was trained using DLIP on all images, with scale 4x and up to 5k iter, instead of 3k. Hopefully it increases the accuracy of kernels. All files are provided on "kernelgan" folder. Note: in order to use it on traiNNer, you have to give dataroot_kernels path, along with enabling realistic under the resizing presets.
+
+### [Nomos2k - Noise Patches](https://mega.nz/file/WSZjjYRI#jgJYQTxJQyJjW5cbDJdUte0szfOpyeiDRrWmMzIkxZ0)
+The noise patches selected in Nomos2k. They were extracted from multiple images "in the wild", with unknown degradation.
 
 ### [falcoon300](https://drive.google.com/open?id=1f25paYZvzULHsBRIjrqcVWTjiekupZQP)
 
